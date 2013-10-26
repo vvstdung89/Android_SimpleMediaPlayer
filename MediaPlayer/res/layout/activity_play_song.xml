@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/returnMain"
+        android:text="@string/returnMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+     <TextView 
+         android:id="@+id/playSong_text_songName"
+         android:text="@string/song_name"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         />
+     
+     <ImageView
+		android:id="@+id/img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:src="@drawable/media_pic"
+		android:contentDescription="@string/img_description"
+		/>
+	
+	<RelativeLayout  
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+     
+	    
+	
+	    <Button
+	        android:id="@+id/previous"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/previous" 
+	        android:layout_alignParentLeft="true"/>
+		<Button
+	        android:id="@+id/start_stop"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/play" 
+	        android:layout_centerHorizontal="true" />
+			
+	    <Button
+	        android:id="@+id/next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/next" 
+	        android:layout_alignParentRight="true" />
+	</RelativeLayout>
+</LinearLayout>

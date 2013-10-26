@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediaPlayer</string>
+    
+    <string name="action_settings">Settings</string>
+    
+	<string name="song_play">Play A Song</string>
+	
+	<string name="nowPLaying">Now Playing</string>
+	
+	<string name="returnMain">Return</string>
+	
+	<string name="previous">Previous</string>
+	
+	<string name="play">Start</string>
+	
+	<string name="next">Next</string>
+	
+	<string name="song_name">Song Name</string>
+	
+	<string name="img_description">Image Description</string>
+	
+</resources>
